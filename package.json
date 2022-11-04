@@ -6,10 +6,11 @@
   "repository": "",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "browser-sync start -s www/ --watch --port 8080 --ui-port 8081",
+    "dev": "node ./node_modules/browser-sync/dist/bin.js start -s www/ --watch --port 8080 --ui-port 8081",
     "copy-f7": "cpy ./node_modules/framework7-icons/fonts/*.* ./www/fonts/",
-    "monaca:preview": "npm run dev",
-    "prepare": "npm run copy-f7"
+    "monaca:preview": "node ./node_modules/monaca/bin/monaca preview",
+    "prepare": "npm run copy-f7",
+    "monaca:debug": "node ./node_modules/monaca/bin/monaca debug"
   },
   "browserslist": [
     "Android >= 7",
