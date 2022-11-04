@@ -10,7 +10,8 @@
     "copy-f7": "cpy ./node_modules/framework7-icons/fonts/*.* ./www/fonts/",
     "monaca:preview": "node ./node_modules/monaca/bin/monaca preview",
     "prepare": "npm run copy-f7",
-    "monaca:debug": "node ./node_modules/monaca/bin/monaca debug"
+    "monaca:debug": "node ./node_modules/monaca/bin/monaca debug",
+    "monaca:login": "node ./node_modules/monaca/bin/monaca login"
   },
   "browserslist": [
     "Android >= 7",
