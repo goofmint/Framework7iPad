@@ -42,6 +42,7 @@
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "cordova": "^11.0.0",
-    "cpy-cli": "^4.1.0"
+    "cpy-cli": "^4.1.0",
+    "monaca": "^4.2.1"
   }
 }
