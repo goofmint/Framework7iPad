@@ -6,7 +6,6 @@
   "repository": "",
   "license": "UNLICENSED",
   "scripts": {
-    "dev": "node ./node_modules/browser-sync/dist/bin.js start -s www/ --watch --port 8080 --ui-port 8081",
     "copy-f7": "cpy ./node_modules/framework7-icons/fonts/*.* ./www/fonts/",
     "monaca:preview": "node ./node_modules/monaca/bin/monaca preview",
     "prepare": "npm run copy-f7",
